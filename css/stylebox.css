@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: azure;
+    margin: 50px;
+}
+.backbox{
+    width: 220px;
+    height: 220px;
+    background-color: #a7a77e;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0 auto;
+}
+.recuadro1{
+    width: 200px;
+    height: 200px;
+    background-color: #aa0;
+    border-radius: 20px;
+    padding: 10px;
+   /* transition:  background-color,color 3500ms;/* s=segundo o ms =milisegundo*/
+   transition:  all 5s;
+}
+.recuadro1:hover{
+  /*  background-color: blue;
+    color: white;*/
+
+    /*transform: translate(50px, -30px); /*tranform:translate(+-x,+-y)*/
+    /*transform: translatex(-200px);*/
+    /*transform: translateY(-200px);*/
+    /*transform: rotate(-45deg);/*degradados*/
+    /*transform: scale(1.5);/*transform: scale (x,y) donde el eje x ó y >1 se agranda o desminuye el elemento*/
+    transform: skew(-35deg);
+    opacity: 0.7;/*rango de 0 a 1*/
+
+
+}
